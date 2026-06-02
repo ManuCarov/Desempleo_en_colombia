@@ -1,10 +1,10 @@
-# 📊 Dashboard: ¿Invertir más en educación reduce el desempleo en Colombia?
+# Dashboard: ¿Invertir más en educación reduce el desempleo en Colombia?
 
 ## Laboratorio Final – Semana 3
 
 ---
 
-## 🚀 Instrucciones de instalación y ejecución
+## Instrucciones de instalación y ejecución
 
 ### 1. Requisitos previos
 - Python 3.9 o superior instalado
@@ -26,7 +26,7 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 /
@@ -37,7 +37,7 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 
 ---
 
-## 🎯 ¿Qué incluye el dashboard?
+##  ¿Qué incluye el dashboard?
 
 ### Narrativa visual (3 fases del taller 1):
 1. **Reto 1 replicado** – Gráfico dual línea (educación % PIB vs desempleo %)
@@ -45,9 +45,9 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 3. **Reto 3** – Scatter plot con línea de tendencia y anotaciones
 
 ### Filtros interactivos:
-- 📅 **Rango de años** (2010–2023)
-- 🌎 **Países LATAM** para comparar (Chile, México, Perú, Brasil, Argentina)
-- 📊 **Modo de visualización** (líneas / área sombreada)
+-  **Rango de años** (2010–2023)
+-  **Países LATAM** para comparar (Chile, México, Perú, Brasil, Argentina)
+-  **Modo de visualización** (líneas / área sombreada)
 
 ### KPIs en tiempo real:
 - Inversión en educación (% PIB) último año
@@ -57,7 +57,7 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 
 ---
 
-## 📊 Fuentes de datos
+## Fuentes de datos
 
 | Fuente | Variables |
 |--------|-----------|
@@ -69,7 +69,7 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 
 ---
 
-## 🏗️ Estructura del código
+## Estructura del código
 
 ```python
 # 1. Configuración de página y CSS corporativo
@@ -84,22 +84,3 @@ El dashboard abrirá automáticamente en tu navegador en: http://localhost:8501
 # 10. Footer
 ```
 
----
-
-## 🎓 Rúbrica cubierta
-
-| Criterio | Implementación |
-|----------|---------------|
-| **Argumentación Visual (40%)** | Título = decisión ejecutiva, anotaciones en puntos críticos (COVID), veredicto en hero |
-| **Arquitectura y Diseño (30%)** | KPIs arriba, gráficos de soporte abajo, jerarquía clara, paleta corporativa |
-| **Interactividad (30%)** | Filtro de años, selector de países, modo de visualización, todo reactivo |
-
----
-
-## 💡 Para el pitch de 3 minutos
-
-**Estructura sugerida:**
-1. **(0:00–0:30)** Pregunta: "¿Deben aumentar el presupuesto de educación para bajar el desempleo?"
-2. **(0:30–1:30)** Mostrar gráfico dual y la correlación r = -0.61
-3. **(1:30–2:30)** Comparar con Chile: prueba de que sí funciona con la política correcta
-4. **(2:30–3:00)** Recomendación: sostener ≥ 5.5% PIB, modelo técnico, fondo anticíclico
